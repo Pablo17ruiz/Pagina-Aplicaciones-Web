@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;/*Color de fondo*/
+}
+
+.container {
+    text-align: center;
+    padding-top: 20px;
+    color: #333;/*Color del Taxto*/
+}
+
+h1 {
+    font-size: 2em;
+}
+
+form {
+    margin: 20px auto;
+    width: 60%;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #0000EE;
+    text-decoration:none;
+}
+
+/*Estilos para los radio buttons personalizados*/
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.radio-container:hover input ~ .checkmark {
+    background-color: #bbb;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background-color: #4CAF50;
+}

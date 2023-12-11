@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Division n1 (Logo del documento) */
+#division-n1 {
+    width: 700px;
+    height: 180px;
+    background-color: orange;
+    color: green;
+    font-size: 30px;
+}
+
+/* Division numero 2 (Cabecera1 PUBLICIDAD-BANNER) */
+#division-2 {
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+/* Division numero 3 (Cabecera2 PUBLICIDADBANNER) */
+#division-3 {
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    color: yellow;
+}
+
+/* Division numero 4 (Área de contenidos) */
+#division-4 {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    color: brown;
+    font-size: 20px;
+}
+
+/* Division numero 5 (PIE1, PPUBLIIDAD) */
+#division-5 {
+    width: 820px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* Division numero 6 (PIE2 PUBLICIDAD) */
+#division-6 {
+    width: 300px;
+    height: 80px;
+    background-color: grey;
+    color: yellow;
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* Division numero 7 (PIE3 PUBLICIDAD) */
+#division-7 {
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", cursive;
+}

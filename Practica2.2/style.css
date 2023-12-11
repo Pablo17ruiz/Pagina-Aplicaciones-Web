@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./servicios-de-programacion-web-a-medida.jpg);/*Ruta de tu imagen de fondo*/
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding-top: 20%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #00ff00;/*Cambia el color al pasar el ratón*/
+}

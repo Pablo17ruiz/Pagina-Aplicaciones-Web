@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-19">
+        <link rel="stylesheet" href="./style.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Formulario</h1>
+            <form id="miFormulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="puesto">Puesto de Trabajos:</label>
+                <select id="puesto" name="puesto">
+                    <option value="opcion1">Operario de Rampa</option>
+                    <option value="opcion2">Dispatcher</option>
+                </select>
+
+                <label>Sexo</label>
+                <label class="radio-container">Maculino
+                    <input type="radio" name="sexo" value="masculino">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="radio-container">Femenino
+                    <input type="radio" name="sexo" value="femenino">
+                    <span class="chackmark"></span>
+                </label>
+
+                <button type="button" onclick="limpiarFormualario()">Limpiar</button>
+
+                <a href="./index.html">Volver</a>
+            </form>
+        </div>
+        <script>
+            function limpiarFormualario() {
+                document.getElementById("miFormulario").reset();
+            }
+        </script>
+    </body>
+</html>

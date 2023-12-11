@@ -1,0 +1,56 @@
+/*Estilo par la tabla*/
+table {
+    width: 600px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+/*Estilo para las cerlsas*/
+table, th, td {
+    border: 1px solid #000;
+}
+
+/*Estilo para las filas con fondo silver y relleno*/
+table tr:first-child,
+table tr:last-child {
+    background-color: silver;
+    padding: 0.3em;
+}
+
+/*Estilo para filas cuando se pasa el raton*/
+table tr:hover {
+    background-color: yellow;
+}
+
+/*Estilo para la segunda fila*/
+table tr:nth-child(2) {
+    background-color: #F5F5F5; /*Color de fondo*/
+    padding: 0.3em; /*Relleno*/
+}
+
+/*Estilo para la tercera fila*/
+table tr:nth-child(3) {
+    background-color: #FAAC58;
+    padding: 0.3em;
+    text-align: center;
+}
+
+/*Estilo para las tres filas siguientes*/
+table tr:nth-child(n+4):nth-child(-n+6) {
+    background-color: #81BEF7;
+    padding: 0.3em;
+    text-align: left;
+}
+
+/*Estilo para las filas al pasar el ratón */
+table tr:hover {
+    background-color: #00FF00;
+}
+
+table tr:nth-child(3):hover {
+    background-color: #F78181;
+}
+
+table tr:nth-child(n+4):nth-child(-n+6):hover {
+    background-color: #00FF00;
+}

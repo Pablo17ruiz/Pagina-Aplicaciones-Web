@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    color: aqua;
+}
+
+.video-cell {
+    width: 20%;
+    height: 200px;
+}
